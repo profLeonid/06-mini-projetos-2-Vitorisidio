@@ -33,7 +33,7 @@ function criarLinha(numero,par, impar, multi5, potencia2) {
     const tdPotencia2 = document.createElement('td')
     tdPotencia2.textContent = potencia2
 
-    tr.replaceChildren(tdNumeros, tdPares, tdImpares, tdMulti5, tdPotencia2)
+    tr.replaceChildren(tdNumeros, tdImpares,tdPares, tdMulti5, tdPotencia2)
 
     tabela.appendChild(tr)
 
